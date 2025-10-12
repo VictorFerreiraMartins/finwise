@@ -83,7 +83,7 @@ O Finwise combina **tecnologia, design e educação financeira** para transforma
 
 ## 📸 Prévia visual *(exemplo futuro)*
 
-> *(Adicione aqui screenshots ou mockups do sistema quando disponíveis)*  
+> *(Screenshots so disponibilizadas em breve)*  
 >  
 > ![Preview Placeholder](https://via.placeholder.com/900x400?text=Finwise+Dashboard+Preview)
 

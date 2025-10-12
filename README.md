@@ -1,61 +1,118 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 💰 Finwise
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+[![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=flat-square&logo=laravel&logoColor=white)](https://laravel.com/)
+[![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?style=flat-square&logo=php&logoColor=white)](https://www.php.net/)
+[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
+[![Status](https://img.shields.io/badge/status-in%20development-yellow?style=flat-square)]()
+[![Made by Victor Martins](https://img.shields.io/badge/made%20by-Victor%20Martins-0F4C75?style=flat-square)](https://github.com/VictorFerreiraMartins)
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+> 💡 **Finwise — a sabedoria financeira ao seu alcance.**
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+**Finwise** é um sistema de **gestão financeira pessoal e imobiliária**, desenvolvido para ajudar pessoas a **entender, planejar e controlar suas finanças** com praticidade e inteligência.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 🧠 Sobre o projeto
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+O **Finwise** nasceu da ideia de unir **organização, clareza e propósito financeiro**.  
+Mais do que um simples app de controle de gastos, ele é um **parceiro para quem quer entender e melhorar sua relação com o dinheiro.**
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Com uma interface intuitiva e recursos inteligentes, o Finwise ajuda você a manter o equilíbrio entre o que entra, o que sai e o que realmente importa: **ter o controle das suas finanças**.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## ⚙️ Funcionalidades principais
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+| 💼 Funcionalidade | Descrição |
+|-------------------|------------|
+| 📅 **Controle de despesas e receitas** | Organize seus fluxos financeiros com categorias personalizadas. |
+| 🏠 **Gestão de imóveis e contas recorrentes** | Acompanhe vencimentos e pagamentos com alertas visuais. |
+| 📊 **Relatórios e indicadores** | Visualize gastos e ganhos por período, tipo ou categoria. |
+| 🔔 **Notificações inteligentes** | Receba alertas antes dos vencimentos e evite surpresas. |
+| 📂 **Anexos e comprovantes** | Armazene documentos diretamente em cada lançamento. |
+| 🧾 **Exportação de dados** | Gere relatórios em CSV ou PDF com um clique. |
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## 🧭 Filosofia
 
-## Contributing
+> **Simplificar a gestão financeira para torná-la parte natural da vida.**
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+O Finwise combina **tecnologia, design e educação financeira** para transformar o jeito como você lida com o dinheiro — de forma leve, intuitiva e organizada.
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 🚀 Stack técnica
 
-## Security Vulnerabilities
+| Tecnologia | Função |
+|-------------|--------|
+| 🧩 **Laravel 12 / PHP 8.3** | Backend robusto e estruturado |
+| ⚡ **Blade / Alpine.js** | Frontend leve e reativo |
+| 🗃️ **MySQL / PostgreSQL** | Armazenamento de dados |
+| 🔁 **Redis + Horizon** | Processamento de filas e jobs |
+| 📑 **maatwebsite/excel** | Importação e exportação de planilhas |
+| 🌐 **API REST** | Integração com sistemas externos |
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+## 📈 Roadmap
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- [ ] Dashboard de insights financeiros  
+- [ ] Assistente de planejamento automático  
+- [ ] Aplicativo mobile (PWA)  
+- [ ] Tradução multilíngue (pt-BR / en-US)  
+- [ ] Módulo de previsão e metas financeiras  
+
+> 💬 *Sugestões e contribuições são bem-vindas via Issues ou Pull Requests.*
+
+---
+
+## 🎨 Identidade Visual
+
+| Elemento | Descrição |
+|-----------|-----------|
+| 🎨 **Cor primária** | Azul petróleo `#0F4C75` — confiança e estabilidade |
+| 💚 **Cor secundária** | Verde-claro `#00BFA5` — crescimento e equilíbrio |
+| ⚪ **Cor neutra** | Cinza-claro `#ECEFF1` — simplicidade e leveza |
+| 🔤 **Fonte** | *Poppins* (títulos) e *Inter* (textos) |
+| 💡 **Ícone** | Cérebro minimalista com símbolo monetário 💰 — sabedoria + finanças |
+
+---
+
+## 📸 Prévia visual *(exemplo futuro)*
+
+> *(Adicione aqui screenshots ou mockups do sistema quando disponíveis)*  
+>  
+> ![Preview Placeholder](https://via.placeholder.com/900x400?text=Finwise+Dashboard+Preview)
+
+---
+
+## 🤝 Como contribuir
+
+1. Faça um **fork** do projeto  
+2. Crie uma **branch** para sua feature (`git checkout -b feature/nome`)  
+3. Faça o commit (`git commit -m 'Add nova feature'`)  
+4. Envie o push (`git push origin feature/nome`)  
+5. Abra um **Pull Request**
+
+> 📢 Sugestões de melhoria também são bem-vindas nas *Issues*!
+
+---
+
+## 💬 Feedback
+
+Se você gostou da proposta ou quer sugerir melhorias, entre em contato:  
+📧 **victor.martins.dev@gmail.com**
+
+---
+
+## 📄 Licença
+
+Distribuído sob a licença **MIT**.  
+Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+### ✨ **Finwise — a sabedoria financeira ao seu alcance.**

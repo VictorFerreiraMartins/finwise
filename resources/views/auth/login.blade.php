@@ -12,7 +12,7 @@
     <div class="login-box">
         <div class="card card-outline card-primary">
             <div class="card-header text-center">
-                <a href="{{ route('home') }}" class="h1">
+                <a href="{{ route('login') }}" class="h1">
                     <b>{{ config('app.name', 'Laravel') }}</b>
                 </a>
             </div>

@@ -47,6 +47,37 @@ class Payable extends Model
     ];
 
     /**
+     * Append attributes.
+     *
+     * @var list<string>
+     */
+    protected $appends = [
+        'status_label',
+    ];
+
+    /**
+     * Available status options.
+     *
+     * @return array<string, string>
+     */
+    public static function statusOptions(): array
+    {
+        return [
+            self::STATUS_PENDING => 'Pendente',
+            self::STATUS_PAID => 'Pago',
+            self::STATUS_OVERDUE => 'Em atraso',
+        ];
+    }
+
+    /**
+     * Human-readable status accessor.
+     */
+    public function getStatusLabelAttribute(): string
+    {
+        return self::statusOptions()[$this->status] ?? ucfirst($this->status ?? '');
+    }
+
+    /**
      * Payable owner.
      */
     public function user(): BelongsTo

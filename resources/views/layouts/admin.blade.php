@@ -19,6 +19,19 @@
             </ul>
 
             <ul class="navbar-nav ml-auto">
+                @auth
+                    <li class="nav-item d-none d-md-flex align-items-center mr-2 text-muted">
+                        <span class="nav-link">{{ auth()->user()->name }}</span>
+                    </li>
+                    <li class="nav-item">
+                        <form method="POST" action="{{ route('logout') }}">
+                            @csrf
+                            <button type="submit" class="btn btn-link nav-link text-danger">
+                                <i class="fas fa-sign-out-alt mr-1"></i> Sair
+                            </button>
+                        </form>
+                    </li>
+                @endauth
                 @stack('navbar-right')
             </ul>
         </nav>
@@ -32,6 +45,7 @@
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                         data-accordion="false">
+                        @include('layouts.partials.sidebar')
                         @stack('sidebar')
                     </ul>
                 </nav>
@@ -62,6 +76,7 @@
 
             <section class="content">
                 <div class="container-fluid">
+                    @includeWhen(session('status') || $errors->any(), 'layouts.partials.flash')
                     @yield('content')
                 </div>
             </section>

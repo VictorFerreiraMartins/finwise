@@ -81,14 +81,6 @@ O Finwise combina **tecnologia, design e educação financeira** para transforma
 
 ---
 
-## 📸 Prévia visual *(exemplo futuro)*
-
-> *(Screenshots so disponibilizadas em breve)*  
->  
-> ![Preview Placeholder](https://via.placeholder.com/900x400?text=Finwise+Dashboard+Preview)
-
----
-
 ## 🤝 Como contribuir
 
 1. Faça um **fork** do projeto  
@@ -104,7 +96,7 @@ O Finwise combina **tecnologia, design e educação financeira** para transforma
 ## 💬 Feedback
 
 Se você gostou da proposta ou quer sugerir melhorias, entre em contato:  
-📧 **victor.martins.dev@gmail.com**
+📧 **victorfm@live.com**
 
 ---
 
